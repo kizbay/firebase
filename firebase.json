@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "site": "kizbay", 
+    "rewrites": [
+      {
+        "source": "/**",
+        "run": {
+          "serviceId": "kizbay",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
